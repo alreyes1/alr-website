@@ -1,0 +1,132 @@
+.header {
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	background: #000;
+	opacity: .8;
+}
+.menuLabel{
+	margin-left: 92%;
+	color: #ffffff;
+	margin-top: 0.5%;
+	margin-bottom: 0%;
+	font-style: serif;
+	text-rendering: optimizeLegibility;
+	font-weight: 200;
+}
+.glyphicon {
+	top: 4px;
+	margin-bottom: 11px;
+-webkit-font-smoothing: antialiased;
+}
+.slideDownMenu{
+	width: 350px;
+	height: 900px;
+	background-color: #fff;
+	position: fixed;
+	margin-left: 82%;
+	display: none;
+}
+.displaymenu{
+	display: block;
+}
+.profileBackground{
+	width: 400px;
+	height: 200px;
+	background: url(../images/trianglify-background.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.profilePic img{
+	height: 150px;
+	width: 120px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin-top: 80px;
+	margin-left: 150px;
+}
+.navLinks{
+	margin-top: 15px;
+	padding: 10px 20px 20px 55px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #666;
+}
+.hero{
+	background: url(../images/heroImage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.txtWrapper{
+	position: fixed;
+	width: 500px;
+	height: 300px;
+	margin-top: 17%;
+	margin-left: 36%;
+}
+.hero h1{
+	font-size: 8em;
+	line-height: .9;
+	font-family: 'Mr Dafoe', cursive;
+	color: #ffffff;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	-webkit-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	text-rendering: optimizeLegibility;
+	font-weight: inherit;
+}
+.hero h2{
+	font-size: 1.4em;
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	font-weight: 200;
+	margin-top: -50px;
+}
+.hero h2:before, .hero h2:after {
+	background-color: #fff;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	vertical-align: middle;
+	width: 25px;
+	margin: 0 10px;
+}
+ul {
+	list-style: none;
+	margin-left: 118px;
+}
+.inlineList{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 0;
+	position: static;
+	z-index: -1;
+
+}
+.inlineList li{
+	display: inline-block;
+	font-size: 30px;
+	color: #fff;
+	margin-right: 12px;
+	margin-top: 10px;
+	
+}
+.inlineList a{
+	display: block;
+	height: 40px;
+	/* padding: 11px; */
+	width: 40px;
+	margin-top: -36px;
+	margin-left: -4px;
+	position: fixed;
+	z-index: 1;
+}
+
